@@ -1,3 +1,9 @@
+.header {
+    margin-top: 40px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
 body {
     background-color: #fffbf7;
 }
@@ -12,27 +18,16 @@ p {
     font-family: verdana;
     font-size: 20px;
 }
-input{
-    height: 3rem;
-    width: 15rem;
-}
+
 button {
     color: #fff;
     background-color: #025157;
-    width: 5rem;
-    height: 3rem;
-    margin: 0 0 0 1rem;
-
 }
 
-form{
-    margin-left: 40%;
-    
-    display: flex;
-    align-items: center;
+li{
+    display: inline;
 }
-div {
-    width: 300px;
-    margin: 0 15% ;
+
+.header > * {
+    display: inline-block;
 }
-  
