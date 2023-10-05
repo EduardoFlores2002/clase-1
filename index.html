@@ -5,13 +5,16 @@
     <title>Matcha</title>
     <link rel="stylesheet" href="styles.css">
   </head>
+  <!--Se le agrega una clase para que funcione el css-->
   <header class="header">
     <!-- Logo con link a la pagina principal-->
+    <!-- Sirve para hacer un enlace interno o externo-->
+    <!-- Se refiere  que hara un enlace de la misma pagina hrf="/"-->
     <a>
-      <img src="https://seeklogo.com/images/S/spider-man-comic-new-logo-322E9DE914-seeklogo.com.png"/>
+      <img src="https://www.upiicsa.ipn.mx/assets/files/upiicsa/Inicio/ICON-UPIICSA.png" class="logo" alt="Logo de UPIICSA"/>
     </a>
     <!-- Menu de navegacion-->
-    <nav>
+    <nav class="navbar">
       <ul>
         <li>Plataform</li>
         <li>Pricing</li>
@@ -21,13 +24,44 @@
       </ul>
     </nav>
     <!-- Contenedor de accion de usuario -->
-    <div>
+    <div class="action">
     <a>sign in</a>
     <button>Star free trial</button>
     </div>
   </header>
   <body>
-
+    <section class="promo">
+      <!--Se puede agregar un poster dentro del control del video solamente haciendolo una vez-->
+      <video controls poster="https://www.aluracursos.com//blog/assets/entienda-el-codigo-binario/banner.jpg">
+        <source
+          type="video/web"
+          src="https://cdn.videvo.net/videvo_files/video/premium/video0036/small_watermarked/computer_code00_preview.mp4"
+        
+        />
+        <source
+          type="video/web"
+          src="https://cdn.videvo.net/videvo_files/video/premium/video0036/small_watermarked/computer_code00_preview.mp4"
+        
+        />
+      ></video>
+      <!--Se le agregan las caracteristicas e informacion-->
+      <article class="publish">
+        <h3>
+          Publish to your blog in minutes, not hours</h3>
+          <p>
+            your blog is your mos powerful asset to build engage, and retail a loyal
+            audience.but you dont have hours to create content that may or may not
+            work with matchainstantly publish from our libraryy of 10000+
+          </p>
+          <form>
+            <p>Start publishing today</p>
+            <div>
+              <input type="text" placeholder="enter email">
+              <button>Start my trial</button>
+            </div>
+          </form>
+      </article>
+    </section>
     <img src="https://ignos.blog/wp-content/uploads/2021/04/capterra.png" alt="imagen capterra" />
     <h1>Construye tu Blog. ¡Adelante! Construye tu negocio.</h1>
     <p>Instantly publish articles, drive more traffic, grow your email list, and see your blog's
