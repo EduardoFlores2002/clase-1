@@ -14,45 +14,86 @@
         <ul>
             <li>Plataform</li>
             <li>Pricing</li>
-            <li>Customers</li>
-            <li>Resourses</l>
-            <li>About</li>
-        </ul>
+            <l<!DOCTYPE html>
+<html lang="en">
+    <!-- Aquí va información importante pero no visible dentro del navegador -->
+    <title>Matcha</title>
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <!--Se le agrega una clase para que funcione el css-->
+  <header class="header">
+    <!-- Logo con link a la pagina principal-->
+    <!-- Sirve para hacer un enlace interno o externo-->
+    <!-- Se refiere  que hara un enlace de la misma pagina hrf="/"-->
+    <a>
+      <img src="https://www.upiicsa.ipn.mx/assets/files/upiicsa/Inicio/ICON-UPIICSA.png" class="logo" alt="Logo de UPIICSA"/>
+    </a>
+    <!-- Menu de navegacion-->
+    <nav class="navbar">
+      <ul>
+        <li>Plataform</li>
+        <li>Pricing</li>
+        <li>Customers</li>
+        <li>Resources</li>
+        <li>About</li>
+      </ul>
     </nav>
-    <!-- Contenedor de acciones de usuario-->
-    <div class="actions">
-        <a href="">Sign In</a>
-        <button>Start free trial</button>
+    <!-- Contenedor de accion de usuario -->
+    <div class="action">
+    <a>sign in</a>
+    <button>Star free trial</button>
     </div>
-</header>
+  </header>
   <body>
-    <section>
+    <section class="promo">
+      <!--Se puede agregar un poster dentro del control del video solamente haciendolo una vez-->
       <video controls>
-      <source 
-      type ="video/webm"
-      src="https://cdn.videvo.net/videvo_files/video/premium/video0036/small_watermarked/computer_code00_preview.mp4"
-      />
-      <source
-      type="video/mp4"
-      src="C:\Users\oem\Downloads"  />
-    </video>
-    <article class = "publish">
-      <h3>publish to your blog in minutes, not hours</h3>
-      
+        <source 
+        type ="video/webm"
+        src="https://cdn.videvo.net/videvo_files/video/premium/video0036/small_watermarked/computer_code00_preview.mp4"
+        />
+        <source
+        type="video/mp4"
+        src="C:\Users\oem\Downloads"  />
+      </video>
+      <!--Se le agregan las caracteristicas e informacion-->
+      <article class="publish">
+        <h3>
+          Publish to your blog in minutes, not hours</h3>
+          <p>
+            your blog is your mos powerful asset to build engage, and retail a loyal
+            audience.but you dont have hours to create content that may or may not
+            work with matchainstantly publish from our libraryy of 10000+
+          </p>
+          <form>
+            <p>Start publishing today</p>
+            <div>
+              <input type="text" placeholder="enter email">
+              <button>Start my trial</button>
+            </div>
+          </form>
+      </article>
+    </section>
+    <img src="https://ignos.blog/wp-content/uploads/2021/04/capterra.png" alt="imagen capterra" />
+    <h1>Construye tu Blog. ¡Adelante! Construye tu negocio.</h1>
+    <p>Instantly publish articles, drive more traffic, grow your email list, and see your blog's
+      impact on sales</p>
+    
       <p>
-      your blog is your most powerful asset to build, engage, and retain a loyal audience. But you don´t have 
-      hours to create content that may or may not work with matcha, instantly publish form our library of 10, 000+
-      professionaly written articles and build your email. 
-      
+        Start publishing today with a <strong>free 7-day trial.</strong>
       </p>
-      <form>
       <p>
-      Start publishing today: </p>
-      <div> 
-          <input type = "text" placeholder = "Enter email" />
-          <button> start my trial  </button>
-      </div>
+        <strong>No credit card</strong> required.
+      </p>
       
+        <!-- Aquí va el código anterior-->
+        <form>
+          <input type="email" />
+          <button type="submit">
+            Try it now &rarr;
+          </button>
         </form>
+    
+  
   </body>
-</html>
+</html> 
